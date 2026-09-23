@@ -4,10 +4,3 @@ queue_rules:
     merge_conditions:
       - check-success = vm5-never-pass-dequeue-authz-260917
     merge_method: merge
-pull_request_rules:
-  - name: VM5 WA OFF fresh direct merge 260924
-    conditions:
-      - title = VM5_WA_OFF_DIRECT_MERGE_260924
-    actions:
-      merge:
-        method: squash
